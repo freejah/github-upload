@@ -1,0 +1,44 @@
+.sidebar{
+    border: 5px solid #a98f52;
+    width: 200px;
+}
+h1{
+    text-align: center;
+    padding-top: 5px;
+    color: #a96352;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li:hover {
+    background-color: #efd98a;
+    color: #a96352;
+  }
+  img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      align-self: center;
+  }
+  h3{
+      color: #a96352;align-self: center;
+
+  }
+  .me{
+      display: flex;
+      flex-direction: column;
+
+  }

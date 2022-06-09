@@ -1,0 +1,30 @@
+body{
+    background-color: #e8c0f7;
+}
+.head{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    max-width: 400px;  
+    max-height: 400px;
+    align-items: center;
+}
+.image {
+    text-align: center;
+    border: 1px solid #7104d1;
+}
+.quote{
+    background-color: #cb66ed;
+}
+.sum{
+    text-align: center;
+    border: 1px solid #7104d1;
+}
+footer{
+    text-align: center;
+}
+.list{
+    border: 1px solid #7104d1;
+    list-style: none;
+}

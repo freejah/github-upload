@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+</head>
+<body>
+    <h1>Employee Interest Survey form</h1>
+    <form action="" method="get">
+
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+
+        <label for="Department">Department: </label>
+        <input type="text" name="Department" id="Department" placeholder="Enter your Department" required><br><br>
+
+        <label for="text">Tell us about yourself: </label><br>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea><br><br>
+
+        <label for="">Do you exercise at home? </label>
+        <label for="yes">Yes</label>
+        <input type="radio" name="option" id="yes" >
+        <label for="no">No</label>
+        <input type="radio" name="option" id="no" ><br><br>
+
+        <label for="read">How do you like to read about your favorite topics?</label><br><br>
+        <input type="checkbox" id="apps" name="apps" value="apps">
+        <label for="apps"> Phone Apps</label>
+        <input type="checkbox" id="online" name="online" value="online">
+        <label for="online"> Online</label>
+        <input type="checkbox" id="books" name="books" value="books">
+        <label for="books"> Books</label>
+        <input type="checkbox" id="magazines" name="magazines" value="magazines">
+        <label for="magazines"> Magazines</label><br><br>
+
+        <label for="movie">What is your favorite movie genre?</label>
+            <input list="movie" name="movie" value="Choose...">
+            <datalist id = "movie" >
+                <option value="Comendy"></option>
+                <option value="Action"></option>
+                <option value="Adventure"></option>
+                <option value="Si-fi"></option>
+                <option value="Romance"></option>
+
+            </datalist> <br><br>
+
+        <label for="submit"></label>
+        <input type="submit" id="submit" name="submit">
+
+    </form>
+    
+</body>
+</html>

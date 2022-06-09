@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesur.css">
+    <title>stylesur</title>
+</head>
+<body>
+    <h1 class="head">Devslopes Survey Form</h1>
+    <h2 class="head"><em>Thank you for taking the time to help us improve the platform</em></h2>
+    
+    <div class="form">
+        <form action="" method="get">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email"><br><br>
+
+            <label for="age">Age(optional)</label><br>
+            <input type="number" name="age" id="age" placeholder="Age"><br><br>
+
+            <label for="role">What option best describes your current role?</label><br>
+            <input list="role" name="role" value="Select current role">
+            <datalist id = "role" >
+                <option value="Student"></option>
+                <option value="Full Time Job"></option>
+                <option value="Full Time Learner"></option>
+                <option value="Prefer not to say"></option>
+                <option value="other"></option>
+
+            </datalist> <br><br>
+
+            <p>Would you recommend Devslopes to a friend?</p>
+            <div class="recommend">
+            <label for="definitely">Definitely</label>
+            <input type="radio" name="definitely" id="definitely"><br>
+            <label for="maybe">Maybe</label>
+            <input type="radio" name="maybe" id="maybe"><br>
+            <label for="not sure">Not Sure</label>
+            <input type="radio" name="not sure" id="not sure"><br><br>
+            </div>
+
+            <label for="feature">What is your favorite feauture of devslopes?</label><br>
+            <input list="feature" name="feature" value="Select an option">
+            <datalist id = "feature" >
+                <option value="Challenges"></option>
+                <option value="Projects"></option>
+                <option value="Community"></option>
+                <option value="Mentorship"></option>
+
+            </datalist> <br><br>
+
+            <p>What would you like to see improved? (check all that apply)</p>
+            <div class="improved">
+            <label for="front-end">Front-end Projects</label>
+            <input type="checkbox" name="front-end" id="front-end"><br>
+            <label for="back-end">Back-end Projects</label>
+            <input type="checkbox" name="back-end" id="back-end"><br>
+            <label for="Challenges">Challenges</label>
+            <input type="checkbox" name="Challenges" id="Challenges"><br>
+            <label for="Videos">Videos</label>
+            <input type="checkbox" name="Videos" id="Videos"><br>
+            <label for="Online Meetups">Online Meetups</label>
+            <input type="checkbox" name="Online Meetups" id="Online Meetups"><br>
+            <label for="Community">Community</label>
+            <input type="checkbox" name="Community" id="Community"><br><br>
+            </div>
+
+            
+                <label for="comments">Any comments or suggestions</label><br>
+                <textarea name="text" id="comments" cols="75" rows="10"></textarea><br><br>
+            <div class="submit">
+                <label for="submit"></label>
+                <input type="submit" id="submit" name="submit" > 
+            </div>
+        </form>
+    </div>
+</body>
+</html>

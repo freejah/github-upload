@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mytube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=IBM+Plex+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./pages/Collection1.html">Collection 1</a>
+        <a href="./pages/Collection2.html">Collection 2</a>
+        <a href="./pages/Collection3.html">Collection 3</a>
+        <a href="./form.html">New video</a>
+    </nav>
+    <h1 class="surtit">Add New Video</h1>
+    <form>
+
+        <div class="totform">
+            <div class="vidtit">
+                <label for="title"><h2>Video title</h2></label>
+            <input type="text" name="title" id="title" placeholder="Input Value">
+            </div>
+    
+            <div class="viddes">
+                <label for="description"><h2>Description</h2></label>
+            <textarea type="text" name="description" id="description" placeholder="Text area content" cols="30" rows="10"></textarea>
+            </div>
+    
+            <div class="file">
+                <label for="video"><h2>Video</h2></label>
+            <input type="file" name="video" id="video" placeholder="Choose File"><br><br>
+            </div>
+    
+            <div class="choosecat">
+                <label for="collection"></label>
+            <select name="collection" id="collection">
+                <option value="collection"> Choose Collection</option>
+                <option value="collection1">Collection 1</option>
+                <option value="collection2">Collection 2</option>
+                <option value="collection3">Collection 3</option>
+            </select><br><br>
+            </div>
+    
+            <div class="button">
+                <label for="public">Public</label>
+            <input type="radio" id="public" name="public" value="Public">
+            <label for="private">private</label>
+            <input type="radio" id="private" name="private" value="private"> <br><br><br><br>
+            </div>
+    
+            <label for="upload"></label>
+            <input type="submit" name="upload" id="upload" value="Upload Video">
+        </div>
+
+
+    </form>
+</body>
+</html>

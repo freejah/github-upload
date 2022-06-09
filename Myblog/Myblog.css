@@ -1,0 +1,23 @@
+body{
+    background-color: #b1b1b1;
+    color: #171717;
+}
+section{
+    background-color: #909090;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+    padding-left: 15px;
+}
+
+p{
+    text-align: center;
+    width: 80%;
+    padding: 50px;
+    font-family: 'Noto Serif', serif;
+}
+.head{
+    text-align: center;
+}

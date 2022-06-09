@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(https://bggenerator.com/images/colorful1.jpg) ;
+    text-align: center;
+    height: 25%;
+    width: 100%;
+}
+.intro-2 button{
+    display:inline-block;
+    padding:0.5vw 3vw;
+    border:0.16vw solid #FFFFFF;
+    margin:1vw 0.3vw 0.3vw 0;
+    text-align:center;
+}
+.intro-2 h1{
+    font-size: 2em;
+}
+
+.intro-2 p{
+    margin: 0 15vw; 
+    font-size: 1em;
+}
+.web h2{
+    font-size: 2em;
+    padding: 0 2vh;
+    text-align: center;
+}
+.web p{
+    font-size: 1em;
+    margin: 0 10vw;
+}
+.web-p{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.webdev{
+    border-style: double;
+    height: 30%;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.webdev > img{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+}
+.webdev > h3{
+    text-align: center;
+}
+.webdev > p{
+    text-align: center;
+    padding: 2em;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: hotpink;
+    padding: 0.5em;
+}
+.needs{
+    text-align: center;
+    margin: 0 20vw;
+}
+.contact{
+    background-color: hotpink;
+    
+}
+.stuff{
+    background-color: violet;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.contact> p,.stuff > p{
+    text-align: center;
+    margin: 1vh 10vw;  
+}
+.contact> h3,.stuff > h3{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.academy > p, .radness >p{
+     color: grey;
+     text-align: center;
+}
+@media (max-width: 600px) {
+    .webdev{
+        width: fit-content;
+    }
+    .card{
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+.img > img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+.item>li{
+    display: flex;
+}
+.table{
+    border: 10px solid indigo;
+    width: 350px;
+}
+p{
+    padding-left: 5px;
+}

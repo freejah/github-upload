@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration </title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <hr>
+    <h2>Provide your information</h2>
+    <form action="" method="get" class="form">
+        <div class = "form">
+            <label for="name">Name*</label><br>
+            <input type="text" name="name" id="name" value="Name" required><br><br>
+           
+            <label for="email">Email*</label><br>
+            <input type="email" name="email" id="email" value="Email" required><br><br>
+
+            <label for="num">Telephone</label> <br>
+            <input name="num" type="tel" id="num" value="555" maxlength="3" max="999" size="3"> <span>-</span>
+            <label for="num"></label>
+            <input name="num" type="tel" id="num2" value="555" maxlength="3" max="999" size="3"><span>-</span>
+            <label for="num1"></label>
+            <input name="num" type="tel" id="num1" value="555" max="999" maxlength="4" size="4"> <br><br>
+
+            <label for="dob">DOB*</label><br>
+            <input for="dob" name="dob" id="dob" type="date" required><br><br>
+
+            <label for="">Gender:</label> <br>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male" >
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female">
+            <label for="Other">Other</label>
+            <input type="radio" name="Gender" id="Other"><br><br>
+
+            <label for="house">Household Size</label><br>
+            <input type="number" id="house" name="house" size="2" min="1" max="20" minlength="1" maxlength="20"><br><br>
+
+            <label for="money">Annual Income</label><br>
+            <input list="money" name="money" value="less than 40k">
+            <datalist id = "money" >
+                <option value="less than 40k">
+                <option value="40k-60k">
+                <option value="60k-80k">
+                <option value="80k-100k+">
+
+            </datalist> <br><br>
+            <label for="text">Message</label><br>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="add message here..."></textarea><br><br>
+            
+            <label for="pass">Password*</label><br>
+            <input type="password" name="pass" id="pass" placeholder="password"><br><br>
+            <label for="pass">Confirm Password*</label><br>
+            <input type="password" name="pass" id="cpass" placeholder="Confirm password"><br>
+
+        </div>
+        <br><br>
+        <label for="terms"></label>
+        <input type="checkbox" required><span>By signing up, you agree to the <a href="google.com">Terms of Service</a></span><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: ariel,sans-serif;
+    font-size: 0.9em;
+}
+h1,p,a{
+    font-family: 'Roboto Flex', sans-serif;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav img{
+    width: 45px;
+    height: 45px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+.header-nav a{
+    font-size: 1.3em;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+}
+.section1 p{
+    align-items: center;
+    margin: 0 20vh;
+}
+.section1 h1{
+    font-size: 4em;
+    align-self: center;
+}

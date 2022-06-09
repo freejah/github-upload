@@ -1,0 +1,26 @@
+
+table, th, tr, td {
+    border: 1px solid black;
+   }
+   
+   td {
+    padding: 0px 10px;
+    width: 350px;
+   }
+table img{
+    width: 256px;
+    max-height: 256px;
+    align-items: center;
+    margin: 15px;
+    border-radius: 50%;
+}
+.fav{
+    color: red;
+}
+.notfav{
+    color: blue;
+}
+.hc{
+    color: #ffff00;
+    background-color: #00ff00;
+}

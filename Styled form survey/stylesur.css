@@ -1,0 +1,24 @@
+body{
+   background-image: url(https://images.unsplash.com/photo-1589307004173-3c95204d00ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+   background-size: auto;
+}
+.head{
+    text-align: center;
+    color: white;
+}
+.form{
+    text-align: left;
+    background-color: #cc0561;
+    color: white;
+    max-width: 600px;
+    position: relative;
+    left: 900px;
+    padding: 15px 15px 15px 15px;
+    opacity: .90;
+}
+.submit{
+ 
+    padding-bottom: 15px;
+    text-align: center;
+}
+
